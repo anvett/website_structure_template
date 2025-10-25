@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  @apply bg-light;
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* --------------------------------------------- */
+/* background */
+/* --------------------------------------------- */
+
+.bg-image-background {
+  background-image: url("/assets/images/background1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-with-overlay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/images/hero_landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* --------------------------------------------- */
+/* Section */
+/* --------------------------------------------- */
+
+.section-title {
+  @apply   font-bold text-size-6 sm:text-size-8 lg:text-size-12 font-primary pt-spacing-1 sm:pt-1;
+}
+
+.section-subtitle {
+  @apply font-semibold text-size-4 sm:text-size-6 lg:text-size-6 font-primary;
+}
+
+.section-h5 {
+  @apply text-size-1 sm:text-size-2 lg:text-size-3 font-primary py-1 sm:pt-1;
+}
+
+.title-image {
+  @apply text-size-2 sm:text-size-3 lg:text-size-4 font-primary py-1 sm:pt-1 font-semibold;
+}
+
+.main-button {
+  @apply bg-primary text-light font-bold text-size-2 sm:text-size-4 px-6 py-spacing-2 rounded-full   hover:bg-light hover:text-primary;
+  @apply transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95;
+
+}
+
+.form-button {
+  @apply bg-primary text-light font-bold text-size-1 sm:text-size-2 px-6 py-spacing-1 rounded-full   hover:bg-light hover:text-primary;
+  @apply transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95;
+
+}
+
+.section-p {
+  @apply text-size-1 sm:text-size-1 lg:text-size-2 font-secondary py-1 sm:pt-1;
+}
+
+/* --------------------------------------------- */
+/* Contador */
+/* --------------------------------------------- */
+
+.countdown-container {
+  @apply flex flex-nowrap justify-center items-center bg-opacity-75  rounded-md  text-center;
+  @apply space-x-2 sm:space-x-9;
+  @apply px-4 sm:px-8;
+  @apply overflow-x-auto;
+}
+
+.countdown-time {
+  @apply text-size-8 font-bold text-light sm:text-size-20;
+}
+
+.countdown-label {
+  @apply text-size-3 font-semibold text-light sm:text-size-10;
+}
+
+.countdown-segment {
+  @apply flex flex-col items-center px-2 sm:px-4;
+}
+
+.countdown-expired {
+  @apply text-red-600 font-bold text-xl;
+}
+
+/* --------------------------------------------- */
+/* Landing styles */
+/* --------------------------------------------- */
+
+.landing-product {
+  @apply text-size-7 font-primary  font-bold  pb-spacing-2 sm:text-size-12;
+}
+
+.landing-title {
+  @apply text-size-8 font-primary font-bold text-center  pb-spacing-2 sm:text-size-18 px-spacing-2;
+}
+
+.landing-subtitle {
+  @apply text-size-2 font-secondary font-semibold  pb-spacing-1 pt-spacing-1 sm:text-size-7;
+}
+
+/* --------------------------------------------- */
+
+.btn-landing {
+  @apply bg-accent text-dark text-size-6 font-primary text-lg font-bold px-spacing-3 py-spacing-1 sm:text-size-8 sm:py-spacing-4 sm:px-spacing-5;
+  @apply border-2 border-dotted border-black hover:bg-dark hover:text-light rounded-full;
+  @apply flex items-start justify-center;
+  @apply transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95;
+}
+
+.btn-landing p {
+  @apply flex items-center justify-center leading-none m-0;
+}
