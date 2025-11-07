@@ -63,12 +63,16 @@
   @apply   font-bold text-size-6 sm:text-size-8 lg:text-size-12 font-primary pt-spacing-1 sm:pt-1;
 }
 
+.subsection-title {
+  @apply   font-bold text-size-6 sm:text-size-7 lg:text-size-11 font-primary pt-spacing-1 sm:pt-1;
+}
+
 .section-subtitle {
   @apply font-semibold text-size-4 sm:text-size-6 lg:text-size-6 font-primary;
 }
 
 .section-h5 {
-  @apply text-size-1 sm:text-size-2 lg:text-size-3 font-primary py-1 sm:pt-1;
+  @apply text-size-1 sm:text-size-3 lg:text-size-5 font-primary py-1 sm:pt-1;
 }
 
 .title-image {
@@ -145,4 +149,78 @@
 
 .btn-landing p {
   @apply flex items-center justify-center leading-none m-0;
+}
+
+/* =========================================================
+GRADIENTES
+========================================================= */
+
+/* =========================================================
+   🌐 PAGINAS PRINCIPALES
+========================================================= */
+
+/* Gradientes de 2 colores */
+.bg-gradient-home-1 {
+  @apply bg-gradient-to-r from-accent to-dark;
+}
+.bg-gradient-home-2 {
+  @apply bg-gradient-to-tr from-highlight to-accent;
+}
+.bg-gradient-home-3 {
+  @apply bg-gradient-to-b from-dark to-light;
+}
+
+/* Gradientes de 3 colores */
+.bg-gradient-home-4 {
+  @apply bg-gradient-to-r from-dark via-secondary to-dark;
+}
+.bg-gradient-home-5 {
+  @apply bg-gradient-to-t from-primary via-primary/90 to-dark;
+}
+
+
+/* =========================================================
+   🌿 HOSTERIA (MOLINO DE CAFÉ)
+========================================================= */
+
+/* Gradientes de 2 colores */
+.bg-gradient-molino-1 {
+  @apply bg-gradient-to-r from-molino-dark to-molino-accent;
+}
+.bg-gradient-molino-2 {
+  @apply bg-gradient-to-tr from-molino-primary to-molino-light;
+}
+.bg-gradient-molino-3 {
+  @apply bg-gradient-to-bl from-molino-secondary to-molino-accent;
+}
+
+/* Gradientes de 3 colores */
+.bg-gradient-molino-4 {
+  @apply bg-gradient-to-t from-molino-dark via-molino-secondary to-molino-dark;
+}
+.bg-gradient-molino-5 {
+  @apply bg-gradient-to-tl from-molino-primary via-molino-accent to-molino-light;
+}
+
+/* =========================================================
+   ☕ CAFETERIA (CAFÉ CON RAÍCES)
+========================================================= */
+
+/* Gradientes de 2 colores */
+.bg-gradient-cafe-1 {
+  @apply bg-gradient-to-r from-cafe-dark to-cafe-accent;
+}
+.bg-gradient-cafe-2 {
+  @apply bg-gradient-to-tr from-cafe-primary to-cafe-light;
+}
+.bg-gradient-cafe-3 {
+  @apply bg-gradient-to-b from-cafe-secondary to-cafe-accent;
+}
+
+/* Gradientes de 3 colores */
+.bg-gradient-cafe-4 {
+  @apply bg-gradient-to-tl from-cafe-dark via-cafe-secondary to-cafe-dark;
+}
+.bg-gradient-cafe-5 {
+  @apply bg-gradient-to-tl from-cafe-light via-cafe-accent to-cafe-light;
 }
