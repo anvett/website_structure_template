@@ -87,6 +87,16 @@ export const galleryGreenHavenData = [
     title: "Estancia acogedora",
     alt: "Sala para compartir",
   },
+  {
+    image: "/assets/images/molino/galeria/green-haven/green_5.jpg",
+    title: "Balcón con excelente vista",
+    alt: "Balcón con excelente vista",
+  },
+  {
+    image: "/assets/images/molino/galeria/green-haven/green_6.jpg",
+    title: "Vista hacia el balcón",
+    alt: "Vista hacia el balcón",
+  },
  
 ];
 
@@ -138,6 +148,19 @@ export const galleryGreenFamiliarData = [
     title: "Áreas para compartir",
     alt: "Áreas para compartir",
   },
-  
+  {
+    image: "/assets/images/molino/galeria/green-familiar/familiar_8.jpg",
+    title: "Vista exterior",
+    alt: "Vista exterior",
+  },
+  {
+    image: "/assets/images/molino/galeria/green-familiar/familiar_6.jpg",
+    title: "Dormitorio doble",
+    alt: "Dormitorio doble",
+  },{
+    image: "/assets/images/molino/galeria/green-familiar/familiar_7.jpg",
+    title: "Dormitorio con TV",
+    alt: "Dormitorio con TV",
+  },
 ];
 

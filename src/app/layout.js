@@ -28,12 +28,12 @@ export const metadata = {
   authors: [{ name: "Molino de Café & Café con Raíces" }],
   creator: "Anvetcorp",
   publisher: "Molino de Café & Café con Raíces",
-  metadataBase: new URL("https://www.molinoyraices.com"), // dominio final
+  metadataBase: new URL("https://www.raicesdelmolino.com"), // dominio final
   openGraph: {
     title: "Molino de Café & Café con Raíces",
     description:
       "Unimos la tranquilidad del campo con la energía de la ciudad. Vive experiencias únicas entre naturaleza y café de especialidad.",
-    url: "https://www.molinoyraices.com",
+    url: "https://www.raicesdelmolino.com",
     siteName: "Molino de Café & Café con Raíces",
     images: [
       {

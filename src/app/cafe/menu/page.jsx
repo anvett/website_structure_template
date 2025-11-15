@@ -54,7 +54,7 @@ export default function Page() {
       <section className="bg-gradient-cafe-4">
         <GalleryWithModal
           items={menuCafeItems}
-          whatsappNumber="593998037754"
+          whatsappNumber="593988803070"
           titleOptions={{
             text: "Nuestra carta",
             color: "text-cafe-accent",

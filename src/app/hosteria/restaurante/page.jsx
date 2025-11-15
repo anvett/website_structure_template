@@ -90,7 +90,7 @@ export default function Page() {
         buttonFont="font-secondary"
         titleSize="text-size-8 md:text-size-10 font-bold"
         subtitleSize="text-size-5 md:text-size-6"
-        bulletSize="text-size-3 md:text-size-4"
+        bulletSize="text-size-2 md:text-size-3"
         paddingY="py-spacing-8 md:py-spacing-10"
         contentAlign="text-left"
         buttonStyle="btn border-none rounded-custom-20 px-8 py-3  text-size-2 transition duration-300"
@@ -129,7 +129,7 @@ export default function Page() {
         buttonFont="font-secondary"
         titleSize="text-size-8 md:text-size-10 font-bold"
         subtitleSize="text-size-5 md:text-size-6"
-        bulletSize="text-size-3 md:text-size-4"
+        bulletSize="text-size-2 md:text-size-3"
         paddingY="py-spacing-8 md:py-spacing-10"
         contentAlign="text-left"
         buttonStyle="btn border-none rounded-custom-20 px-8 py-3  text-size-2 transition duration-300"
@@ -161,7 +161,7 @@ export default function Page() {
       ====================================================================================== */}
       <GalleryPreview
         title="Vive la experiencia del Molino"
-        description={`Descubre cómo la <span class='text-molino-dark font-semibold'>cocina artesanal</span> y la <span class='text-molino-dark font-semibold'>hospitalidad</span> se unen para ofrecer momentos inolvidables.`}
+        description={`Descubre cómo la cocina artesanal y la hospitalidad se unen para ofrecer momentos inolvidables.`}
         items={galleryRestauranteData}
         bgColor="bg-gradient-molino-4"
         textColor="text-molino-light"

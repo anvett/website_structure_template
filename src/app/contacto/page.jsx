@@ -39,7 +39,7 @@ export default function Page() {
             phone="+593993473226"
             email="reservas@raicesdelmolino.com"
             whatsapp="+593993473226"
-            address="Molino de Café Cabañas Lodge, Guayllabamba - Ecuador"
+            address="Molino de Café Cabañas Lodge, Santa Rosa de Cusubamba - Ecuador"
             googleMapsUrl="https://www.google.com/maps/place/Molino+de+Caf%C3%A9+Caba%C3%B1as+Lodge/@-0.0428732,-78.2852568,17z/data=!3m1!4b1!4m9!3m8!1s0x91d5f54515fa5461:0xc9298d4b19ff00!5m2!4m1!1i2!8m2!3d-0.0428732!4d-78.2852568!16s%2Fg%2F11vhs0vrkh?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D"
             cardBg="bg-light/90 backdrop-blur-md"
             cardText="text-dark"

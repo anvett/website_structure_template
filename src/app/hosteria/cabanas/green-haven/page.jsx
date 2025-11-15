@@ -71,10 +71,10 @@ export default function Page() {
           "Balcón privado con vista al bosque.",
           "Interiores con madera, hierro y texturas naturales.",
           "Iluminación cálida que invita al descanso.",
-          "Cocina y zona de lectura con vista panorámica.",
+          "Incluye desayuno personalizado, cóctel de bienvenida y fogata por la noche."
         ]}
         buttonText="Reserva tu experiencia"
-        buttonLink="/hosteria/reservar"
+        buttonLink="/reservar"
         mediaSrc="/assets/images/molino/galeria/green-haven/green_description.jpg"
         mediaType="image"
         bg="bg-gradient-molino-4 text-molino-dark"
@@ -90,7 +90,7 @@ export default function Page() {
         buttonFont="font-secondary"
         titleSize="text-size-8 md:text-size-10 font-bold"
         subtitleSize="text-size-5 md:text-size-6"
-        bulletSize="text-size-3 md:text-size-4"
+        bulletSize="text-size-2 md:text-size-3"
         paddingY="py-spacing-8 md:py-spacing-10"
         contentAlign="text-left"
         buttonStyle="btn border-none rounded-custom-20 px-8 py-3  text-size-2 transition duration-300"

@@ -78,7 +78,7 @@ export default function Page() {
         buttonFont="font-secondary"
         titleSize="text-size-8 md:text-size-10 font-bold"
         subtitleSize="text-size-5 md:text-size-6"
-        bulletSize="text-size-3 md:text-size-4"
+        bulletSize="text-size-2 md:text-size-3"
         paddingY="py-spacing-8 md:py-spacing-10"
         contentAlign="text-left"
         buttonStyle="btn border-none rounded-custom-20 px-8 py-3  text-size-2 transition duration-300"
@@ -135,7 +135,7 @@ export default function Page() {
         buttonFont="font-secondary"
         titleSize="text-size-8 md:text-size-10 font-bold"
         subtitleSize="text-size-5 md:text-size-6"
-        bulletSize="text-size-3 md:text-size-4"
+        bulletSize="text-size-2 md:text-size-3"
         paddingY="py-spacing-8 md:py-spacing-10"
         contentAlign="text-left"
         buttonStyle="btn border-none rounded-custom-20 px-8 py-3  text-size-2 transition duration-300"
@@ -195,7 +195,7 @@ export default function Page() {
       QUOTE #2
       ====================================================================================== */}
       <QuoteSection
-        quote="El café no solo se bebe, se siente, se comparte y se recuerda."
+        quote="Ahora tu café favorito también llega a tu puerta. Café con Raíces ya está disponible en Pedidos Ya y Rappi."
         author="Café con Raíces"
         bgColor="bg-gradient-cafe-3"
         textColor="text-cafe-dark"

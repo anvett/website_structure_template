@@ -1,3 +1,37 @@
+
+
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "plugins": ["react", "jsx-a11y", "import"],
+  "rules": {
+    /* ========= ⚙️ CONFIGURACIONES PRINCIPALES ========= */
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "react/no-unknown-property": "off",
+
+    /* ========= 🖼️ NEXT.JS ========= */
+    "@next/next/no-img-element": "off",
+    "@next/next/no-document-import-in-page": "off",
+    "@next/next/no-page-custom-font": "off",
+    "@next/next/no-typos": "off",
+
+    /* ========= ⚡ REACT HOOKS ========= */
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+
+    /* ========= ✨ ESTILO GENERAL ========= */
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-undef": "error",
+
+    /* ========= 📁 IMPORTS ========= */
+    "import/no-unresolved": "off",
+    "import/no-anonymous-default-export": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

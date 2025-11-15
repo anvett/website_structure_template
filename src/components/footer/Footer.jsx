@@ -52,8 +52,8 @@ export default function Footer({
   const addressCafe = "Café con Raíces — Quito, Ecuador";
 
   const social = contactData?.social || [
-    { name: "Facebook", href: "https://facebook.com" },
-    { name: "Instagram", href: "https://instagram.com" },
+    { name: "Facebook", href: "https://www.facebook.com/search/top/?q=cafe%20con%20raices" },
+    { name: "Instagram", href: "https://www.instagram.com/molinodecafe_ec/" },
   ];
 
   // Menú “Explora”
@@ -72,9 +72,9 @@ export default function Footer({
   const cafeLinks = [{ name: "Menú de la cafetería", path: "/cafe/menu" }];
 
   const legalLinks = [
-    { name: "Política de Privacidad", path: "/legal/politica-de-privacidad" },
+    { name: "Política de Privacidad", path: "/legal/politicas-de-privacidad" },
     { name: "Términos de Uso", path: "/legal/terminos-de-uso" },
-    { name: "Política de Cookies", path: "/legal/politica-de-cookies" },
+    { name: "Política de Cookies", path: "/legal/politicas-de-cookies" },
   ];
 
   return (
